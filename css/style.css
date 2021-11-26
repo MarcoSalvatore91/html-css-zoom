@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    height: 100vh;
 }
 
 /* Utilities */
@@ -31,7 +32,7 @@ a {
     top: 5px;
     right: 5px;
     background-color: rgb(74,74,74);
-    padding: 2px 4px;
+    padding: 4px 4px;
     border-radius: 5px;
 }
 
@@ -39,3 +40,19 @@ a {
     margin-right: 30px;
 }  
 
+/* Main */
+
+#conteiner {
+    height: calc(100vh - 100px);
+    max-width: 100vw;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    height: calc(100% / 5);
+}
+
+img {
+    flex-basis: calc(100vw / 5);
+}
