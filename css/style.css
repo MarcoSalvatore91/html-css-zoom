@@ -50,19 +50,33 @@ a {
 
 .row {
     display: flex;
-    height: calc(100% / 5);
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .img-user {
-    display: flex;
-    position: relative;
-    flex-basis: calc(100vw / 7);
     justify-content: center;
+    flex-basis: 200px;
+    height: 100px;
+    margin: 5px 2px;
+    position: relative;
 }
 
-.img-user a {
-    position: absolute;
+.img-user img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
+
+.img-user .name-user {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px 3px;
+    background-color: rgba(92,106,118,0.5);
+    font-size: 0.8em;
+}
+
 
 /* Footer */
 
