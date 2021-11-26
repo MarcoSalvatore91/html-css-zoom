@@ -1,3 +1,5 @@
+/* Generics */
+
 * {
     margin: 0; 
     padding: 0;
@@ -7,4 +9,33 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+/* Utilities */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+#speacker-view {
+    height: 100px;
+    background-color: black;
+    position: relative;
+    padding: 20px;
+}
+
+#speacker-view a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgb(74,74,74);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.speacker {
+    margin-right: 30px;
+}  
 
