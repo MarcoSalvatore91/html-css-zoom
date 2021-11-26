@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+i {
+    color: white;
+}
+
 /* Header */
 
 #speacker-view {
@@ -44,11 +48,11 @@ a {
 
 #conteiner {
     height: calc(100vh - 200px);
-    width: 100vw;
     background-color: black;
+    overflow-y: scroll;
 }
 
-.row {
+#flex-main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -57,7 +61,7 @@ a {
 .img-user {
     justify-content: center;
     flex-basis: 200px;
-    height: 100px;
+    height: 128px;
     margin: 5px 2px;
     position: relative;
 }
@@ -83,4 +87,12 @@ a {
 footer {
     height: 100px;
     background-color: rgb(34,34,34);
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
 }
