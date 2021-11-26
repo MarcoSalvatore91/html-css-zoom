@@ -47,7 +47,7 @@ i {
 /* Main */
 
 #conteiner {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 170px);
     background-color: black;
     overflow-y: scroll;
 }
@@ -61,7 +61,7 @@ i {
 .img-user {
     justify-content: center;
     flex-basis: 200px;
-    height: 128px;
+    height: 135px;
     margin: 5px 2px;
     position: relative;
 }
@@ -85,14 +85,41 @@ i {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 70px;
     background-color: rgb(34,34,34);
+    display: flex;
+}
+
+.icon i {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+footer a {
+    font-size: 0.8em;
 }
 
 .w-25 {
-    width: 25%;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
 }
 
 .w-50 {
-    width: 50%;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.w-25 div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.w-50 div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
 }
