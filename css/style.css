@@ -97,12 +97,12 @@ footer {
     display: flex;
 }
 
-footer i, footer a {
+footer i, .w-25 div {
     cursor: pointer;
     transition: color 1s ease;
 }
 
-footer a:hover, footer i:hover {
+.w-25 div, footer i:hover {
     color: green;
 }
 
